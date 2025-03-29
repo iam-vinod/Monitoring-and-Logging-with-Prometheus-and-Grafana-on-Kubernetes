@@ -1,0 +1,13 @@
+name: Deploy Monitoring Stack
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Set up Kubectl
+        uses: azure/setup-kubectl@v3
+      - name: Deploy Resources
+        run: |
+          kubectl apply -f k8s/
