@@ -62,6 +62,16 @@ kubectl get secret --namespace monitoring prometheus-grafana -o jsonpath="{.data
 
 Use these credentials to log in to Grafana.
 
+🎯 Why This Approach?
+
+✔ No need for cloud infrastructure (AWS EKS, IAM, etc.)
+
+✔ No need to configure Load Balancers or networking
+
+✔ Fast deployment (~5 minutes)
+
+✔ Everything runs locally
+
 🔥 Next Steps
 
 Add custom dashboards for monitoring specific applications.
