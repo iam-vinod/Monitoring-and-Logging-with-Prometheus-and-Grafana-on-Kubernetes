@@ -2,9 +2,9 @@
 
 This project sets up Prometheus and Grafana for monitoring a Kubernetes cluster using Minikube and Helm.
 
+``
 📂 Project Folder Structure
 
-``
 Monitoring-Logging-Prometheus-Grafana/
 ├── k8s/
 │   ├── namespace.yaml
@@ -16,7 +16,6 @@ Monitoring-Logging-Prometheus-Grafana/
 │   ├── workflows/
 │   │   ├── deploy.yml
 ├── README.md
-
 ``
 
 ✅ Prerequisites to Install
