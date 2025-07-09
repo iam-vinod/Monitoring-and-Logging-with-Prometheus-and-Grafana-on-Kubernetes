@@ -7,3 +7,8 @@ server:
     nodePort: 30090
   persistentVolume:
     enabled: false
+
+grafana:
+  service:
+    type: NodePort
+    nodePort: 30030
